@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x:hidden ;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.section2 {
+    width: 100%;
+    min-height: 80vh;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.section2right {
+    width: 55%;
+    min-height: 80vh;
+    padding: 50px;
+    background: #333;
+}
+
+.section2header {
+    color: #017143;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.span2 {
+    color: #333;
+    font-weight: 300px;
+    font-size: 10px;
+    text-indent: 0.5px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500px;
+}
+
+.content .textBox h2 span {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 900px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    max-width: 6000px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+   font-weight: 600;
+   gap: 20px;
+ }
+
+.container {
+    display: flex;
+    
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x:hidden ;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.section2 {
+    width: 100%;
+    min-height: 80vh;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.section2right {
+    width: 55%;
+    min-height: 80vh;
+    padding: 50px;
+    background: #333;
+}
+
+.section2header {
+    color: #017143;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.span2 {
+    color: #333;
+    font-weight: 300px;
+    font-size: 10px;
+    text-indent: 0.5px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.imgBox {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content .textBox-h {
+    max-width: 600px;
+}
+
+.content .textBox-h p {
+    color: #333;
+}
+
+.content .textBox-h h2 span {
+    font-size: 2.2em;
+    font-weight: 900ox;
+    font-style: sans-serif;
+}
+
+.content-h .textBox {
+    position: relativec;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.content-h .textBox h2 span {
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 900px;
+}
+
+.card-items {
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.card-photo {
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.container-cards {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    max-width: 6000px;
+    justify-content: center;
+}
+
+.card-contentitems {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-contentitems p {
+    margin-top:30px;
+}
+
+.card-contentitems span {
+    color: #333;
+}
+
+.card-contentitems a{
+    text-decoration: none;
+}
+
+.card-product:nth-child(even) {
+    background: #fff;
+}
+
+.container-product {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    max-width: 6000px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.container-product::-webkit-scrollbar {
+    height: 10px;
+}
+
+.container-product::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+
+.container-product::-webkit-scrollbar-track {
+    background: #747373;
+    border-radius: 10px;
+}
+
+.container-product a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-product .card-content {
+    background: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-content span {
+    color: #333;
+}
+
+.card-content p {
+    text-align: left;
+    padding: 0;
+}
+
+.container-product .card {
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    text-align: center;
+
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+   font-weight: 600;
+   gap: 20px;
+ }

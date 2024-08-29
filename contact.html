@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact/help</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<section>
+    <header>
+        <a href="home.html"><img src="foto/001-nike-logos-swoosh-black.jpg" class="logo"></a>
+        <ul>
+            <li class="li"><a href="home.html">Home</a></li>
+            <li class="li"><a href="wnew.html">What's New</a></li>
+            <li class="li"><a href="product.html">Product</a></li>
+            <li class="li"><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="content">
+        <div class="textBox">
+            <p><h2><span>Contact Us</span></h2></p>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="card">
+            <img src="foto/messenger.png" width="50px" alt="">
+            <div class="card-content">
+                <br>
+                <p><h4><span>Product & Orders</span></h4>4 am - 11 am pt <br>
+                7 days a week</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="foto/location.png" width="50px" alt="">
+            <div class="card-content">
+                <br>
+                <p><h4><span>Store Location</span></h4>Nike Unite - IMM <br>
+                7 days a week</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="foto/telephone.png" width="50px" alt="">
+            <div class="card-content">
+                <br>
+                <p><h4><span>Company Info & Inquiries</span></h4>1-800-344-6453 <br>
+                7am - 4am pt</p>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="section2" id="section2">
+            <h2 class="section2heading" id="heading2">Any Queries</h2>
+            <hr>
+            <br>
+            <div class="container-form">
+                <form id="my-form" action="https://formspree.io/f/xdoveeaj" method="POST">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="emailadress">E-mail</label>
+                <input type="email" id="email" name="email" pattern="[^ @]*@[^ @]*" required
+                placeholder="Your email address..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
+                required></textarea>
+                <input type="submit" value="Submit" id="my-form-button">
+                </form>
+            </div>
+        </div>
+</section>
+
+<div class="footer">
+    <p>Nike &copy;2024</p>
+</div>
+
+</body>
+</html>
